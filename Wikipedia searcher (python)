@@ -1,0 +1,9 @@
+import wikipedia as wiki         #Here i have imported wikipedia in my program
+
+s_wiki = input("Enter here to search wiki : ")#This is the input line which will take input from the user
+
+print("Searching....")            #This line is just printed for fun
+
+result = wiki.summary(s_wiki, sentences=1)    #This line will actually search the wikipedia and store the results in this variable itself
+
+print(result)                      #This line will just print the results
